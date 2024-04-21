@@ -95,7 +95,7 @@ class PublishMap(Node):
             self.cones.colors.append(c)  
                    
         if len(orange_x) != 0:              #in some bags orange cones are not present
-            for x,y in orange_x,orange_y:
+            for x,y in zip(orange_x,orange_y):
                 p = Point()
                 p.x = x
                 p.y = y 
@@ -112,7 +112,7 @@ class PublishMap(Node):
             
 
         if len(big_orange_x) != 0:
-            for x,y in big_orange_x,big_orange_y:
+            for x,y in zip(big_orange_x,big_orange_y):
                 p = Point()
                 p.x = x
                 p.y = y 
