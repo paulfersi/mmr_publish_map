@@ -1,0 +1,10 @@
+/publish_map:
+  ros__parameters:
+    cones_topic: /slam/cones_positions
+    cones_file: /mmr-drive/src/0_common/save_map/save_map/data/cones_positions.json
+    trajectory_points_topic: /planning/waypoints_all
+    trajectory_points_file: /mmr-drive/src/0_common/save_map/save_map/data/waypoints.json
+    speed_profile_topic: /planning/speedProfilePoints
+    speed_profile_file: /mmr-drive/src/0_common/publish_map/traj_race_cl.csv
+    timer_period: 0.05 # 20hz
+      
